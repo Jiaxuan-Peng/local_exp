@@ -12,7 +12,7 @@ import torch
 import numpy as np
 import argparse
 import os
-'''
+
 output_dir = "./deberta_imdb"
 parser = argparse.ArgumentParser()
 parser.add_argument('--output_dir', type=str, help='Directory where model checkpoints will be saved')
@@ -123,5 +123,5 @@ print("Evaluation results:", evaluation_results["eval_accuracy"])
 # Evaluate the model
 evaluation_results = eval_trainer.evaluate(tokenized_datasets["test"])
 print("Evaluation results:", evaluation_results["eval_accuracy"])
-
+'''
 
