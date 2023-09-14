@@ -11,7 +11,7 @@
 #SBATCH -o assignment_1-%j
 #SBATCH --export=ALL
 
-source ~/micromamba/etc/profile.d/conda.sh
+source ~/miniconda3/etc/profile.d/conda.sh
 conda activate hw
 
 mkdir -p /scratch/general/vast/u1413911/huggingface_cache
